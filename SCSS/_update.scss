@@ -1,0 +1,46 @@
+#update-section {
+    .update-section {
+        @extend .flex-basic;
+        .udate-heading {
+            @extend .flex-basic;
+            margin-bottom: 50px;
+            h2 {
+                font-size: 45px;
+                margin-bottom: 25px;
+            }
+            p {
+                width: 691px;
+                text-align: center;
+            }
+        }
+        .subscribe-box {
+            display: flex;
+            justify-content: center;
+            width: 809px;
+            height: 200px;
+            background: #FFF4D6;
+            align-items: center;
+
+            input {
+                display: block;
+                width: 275px;
+                height: 48px;
+                font-size: 20px;
+                padding: 0 10px;
+                width: 275px;
+                height: 48px;
+                border-radius: 5px 0px 0px 5px;
+                background: #D9D9D9;
+                border: 1px solid blue;                 
+            }
+            label {
+                height: 48px;
+                border-radius: 0px 5px 5px 0px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                
+            }
+        }
+    }
+}

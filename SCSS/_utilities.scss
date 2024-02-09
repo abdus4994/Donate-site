@@ -1,0 +1,53 @@
+// Color
+$bgColor : #FFF;
+$pColor : #FF5959;
+$sColor : #121212;
+$whiteColor : #FFF;
+
+$marginB : 70px;
+// font
+$fontWSM : 400;
+$fontWMD : 600;
+$fontWLG : 700;
+
+// Main Width
+
+$small: 200px;
+$medium: 767px;
+
+.btn {
+    padding: 16px 12px;
+    background: $pColor;
+    color: $whiteColor;
+    font-weight: $fontWMD;
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+h1, h2 {
+    color: $sColor;
+    font-weight: $fontWMD;    
+    font-family: 'Inter', sans-serif;
+}
+
+
+
+
+.container {
+    width: 1440px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+.inner {
+    margin-bottom: $marginB ;
+}
+
+.flex-basic {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

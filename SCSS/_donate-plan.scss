@@ -1,0 +1,50 @@
+#donate-plan {  
+    
+    .donate-plan {        
+        background: $bgColor;
+        height: 90vh;
+        @extend .flex-basic;
+        .donate-plan_heading {
+            @extend .flex-basic;
+            width: 691px;
+            margin-bottom: 50px;
+            h2 {             
+                margin-bottom: 40px;
+                font-size: 45px; 
+            }
+            p {
+                text-align: center;
+            }
+        }
+        
+    }
+    .donate-plan_contain {
+        @extend .flex-basic;
+        flex-direction: row;
+        gap: 0 15px;
+        .donate-plan_contain-service {
+            width: 360px;
+            height: 352px;
+            @extend .flex-basic;            
+            align-items: start;
+            gap: 15px;
+            padding: 10px;
+            border-radius: 5px;
+            h3 {
+                font-size: 25px;
+            }
+                       
+        }
+        // background color
+        .bgColor-1 {            
+            background: rgba(79, 157, 166, 0.10);
+        }
+        .bgColor-2 {            
+            background: rgba(255, 89, 89, 0.10);
+        }
+        .bgColor-3 {            
+            background: #FFF4D6;
+        }
+        
+    }
+}

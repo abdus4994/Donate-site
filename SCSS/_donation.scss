@@ -1,0 +1,83 @@
+#donation-section {
+    overflow: hidden;
+    
+   
+    .donation-section {
+        overflow: hidden;
+        background: $bgColor;
+        
+        // height: 100vh;
+        @extend .flex-basic;        
+        .donation_head {
+            @extend .flex-basic;
+            width: 60%;
+            text-align: center;          
+            margin-bottom: 15px;
+            h2 {
+                margin-bottom: 40px;
+                font-size: 45px;                
+                line-height: normal;
+            }
+            p {
+                margin-bottom: 40px;
+                font-size: 18px;
+                color: #707070;
+                
+            }            
+        }
+
+        .donation_amount {
+            @extend .flex-basic;
+            flex-direction: row;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-bottom: $marginB;
+           
+            
+            .donate_box {                
+                width: 135px;
+                height: 123px;
+                border-radius: 5px;
+                background: #FAFAFA;
+                @extend .flex-basic;
+                
+                h2 {
+                    font-size: 25px;
+                }
+                &:hover {
+                    border: 2px solid #FF5959;
+                    background: #FEE;
+                    cursor: pointer;
+                }
+            }           
+            
+        }
+        .donate_others {
+            @extend .flex-basic;
+            p {
+                color: #B3B3B3;
+                font-size: 18px;
+                input {
+                    border: none;
+                    width: 100%;
+                    padding: 8px 12px 0 12px;
+                    outline: none;
+                    font-size: 18px;
+                    text-align: center;
+                    font-weight: $fontWLG;
+                    
+                }
+            }
+            hr {
+                width: 500px;
+                height: 2px;
+                margin-bottom: 50px;
+            }
+            a {
+                margin-top: 15px;
+                
+            }
+        }
+        
+    }
+}

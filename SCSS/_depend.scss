@@ -1,0 +1,44 @@
+#depend-section {   
+    .depend-section{
+        height: 100vh;
+        width: 80%;        
+        // border: 2px solid black;
+        @extend .flex-basic;
+        flex-direction: row;
+        margin: 0 auto; 
+                  
+        .depend-contain {
+            flex: 1;
+            margin-right: 15px;
+            @extend .flex-basic;
+            gap: 16px 0;
+            align-items: start;
+            padding: 10px;
+            width: 492px;
+            
+            
+            h2 {
+                font-size: 45px;
+                line-height: normal;
+                margin-bottom: 8px;
+            }
+            p {
+                color: #707070;
+                font-size: 18px;
+            }
+           a {
+            margin-top: 20px;
+           }
+           
+        }
+        .depend-image {
+            flex: 1;
+            img {
+            width: 492px;
+            height: auto;
+            
+            }
+        }
+       
+    }
+}

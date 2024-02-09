@@ -1,0 +1,38 @@
+
+/* custom css */
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.5em;
+    
+    
+}
+
+
+
+a {
+    transition: 0.5s;
+    text-decoration: none;
+    
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+#invoice {
+    display: none;
+   
+}
+
+#challan {
+    display: none;
+}
